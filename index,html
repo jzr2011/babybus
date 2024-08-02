@@ -1,0 +1,151 @@
+<!DOCTYPE> 
+<html>
+<head>
+<style>
+.menu-item.active{
+  background-color:white;
+    
+}
+.container {
+  display: flex;
+  height:100%;
+  width:100%;
+  gap:1%;
+}
+ 
+.sidebar {
+  width: 20%;
+  height:100%;
+  background-color:CornflowerBlue;
+  
+}
+ 
+.content {
+  flex: 1;
+  background: linear-gradient(to bottom right, coral, yellow);
+ 
+
+}
+ 
+.menu-item {
+  cursor: pointer;
+}
+ 
+.item {
+  display: none;
+  width:100%;
+}
+ 
+.item.active {
+  display: block;
+}
+ 
+</style>
+ 
+</head>
+<body style="background:black">
+<div class="container">
+  <div class="sidebar">
+    <ul>
+      <li class="menu-item active">项目简介</li>
+      <li class="menu-item">物联网的定义</li>
+      <li class="menu-item">物联网的组成</li>
+      <li class="menu-item">物联网的发展历程</li>
+      <li class="menu-item">物联网的发展趋势</li>
+      <li class="menu-item">物联网在生活中的应用</li>
+      <li class="menu-item">总结</li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <div class="item active" id="item1">
+       <h1>项目简介</h1>
+       <p>
+          　　各位评委好，当今科技发展迅速，其中的一个重大成果就是网络，物联网是网络中的一个重要组成部分，所以，我们组对物联网开展了研究性学习。过程如下：<br>
+          　　我们先在网上查找资料，了解物联网的历史和工作方式，然后结合生活加深理解，最后搭建网站进行汇报。<br>
+          　　请评委老师们点击左侧边栏继续浏览
+       </p>
+    </div>
+    <div class="item" id="item2">
+     <h1>物联网的定义</h1>
+     <p>　　物联网的英文是Internet of Things，它是一个基于互联网、传统电信网等信息承载体，让所有能够被独立寻址的普通物理对象实现互联互通的网络。它具有普通对象设备化、自治终端互联化和普适服务智能化3个重要特征。</p>
+    </div>
+    <div class="item" id="item3">
+     <h1>物联网的组成</h1>
+     <p>
+      　　物联网主要由应用层、平台层、网络层和感知层组成。<br>
+      　　感知层：感知层是物联网的底层，相当于我们人的感官，负责物体识别和信息采集。<br>
+      　　网络层：网络层由各种私有网络、互联网、有线、无线通讯网组成，负责传递信息。<br>
+      　　平台层：平台层是在云平台基础上构建的基础技术设施，运用智能技术对海量数据和信息进行处理。<br>
+      　　应用层：应用层物联网和用户的接口，根据行业需求，实现物联网的智能应用。<br>
+     </p>
+    </div>
+    <div class="item" id="item4">
+     <h1>物联网的发展历程</h1>
+     <p>
+     　　 物联网概念最早出现于比尔盖茨1995年《未来之路》一书，在《未来之路》中，比尔盖茨已经提及物联网概念，只是当时受限于无线网络、硬件及传感设备的发展，并未引起世人的重视。<br>
+     　　 1998年，美国麻省理工学院创造性地提出了当时被称作EPC系统的“物联网”的构想 。<br>
+      　　1999年，美国Auto-ID首先提出“物联网”的概念，主要是建立在物品编码、RFID技术和互联网的基础上。过去在中国，物联网被称之为传感网。中科院早在1999年就启动了传感网的研究，并已取得了一些科研成果，建立了一些适用的传感网。同年，在美国召开的移动计算和网络国际会议提出了，“传感网是下一个世纪人类面临的又一个发展机遇” 。<br>
+     　　 2003年，美国《技术评论》提出传感网络技术将是未来改变人们生活的十大技术之首 。<br>
+     　　 2005年11月17日，在突尼斯举行的信息社会世界峰会（WSIS）上，国际电信联盟（ITU）发布了《ITU互联网报告2005：物联网》，正式提出了“物联网”的概念。报告指出，无所不在的“物联网”通信时代即将来临，世界上所有的物体从轮胎到牙刷、从房屋到纸巾都可以通过因特网主动进行交换。射频识别技术（RFID）、传感器技术、纳米技术、智能嵌入技术将得到更加广泛的应用和关注。<br>
+      　　2009年8月24日，中国移动总裁王建宙在台湾公开演讲中，也提到了物联网这个概念。工信部总工程师朱宏任在中国工业运行2009年夏季报告会上表示，物联网是个新概念，到2009年为止还没有一个约定俗成的，大家公认的概念。他说，总的来说，“物联网”是指各类传感器和现有的“互联网”相互衔接的一种新技术。<br>
+      　　2021年7月13日，中国互联网协会发布了《中国互联网发展报告（2021）》，物联网市场规模达1.7万亿元，人工智能市场规模达3031亿元。<br>
+     　　 2021年9月，工信部等八部门印发《物联网新型基础设施建设三年行动计划（2021-2023年）》，明确到2023年底，在国内主要城市初步建成物联网新型基础设施，社会现代化治理、产业数字化转型和民生消费升级的基础更加稳固。<br>
+     </p>
+    </div>
+   <div class="item" id="item5">
+    <h1>物联网的发展趋势</h1>
+    <p>
+    　　  1.物联网将广泛用于智能交通、地防入侵、环境保护、政府工作、公共安全、智能电网、智能家居、智能消防、工业监测、老人护理、个人健康等多个领域。<br>
+    　　  2.物联网是继计算机、互联网与移动通信网之后的又一次信息产业浪潮。<br>
+    　　  3.有专家预测10年内物联网就可能大规模普及，这一技术将会发展成为一个上万亿元规模的高科技市场。<br>
+    　　  4.物联网企业间将呈现“大杂居，小聚居，共联盟”的生态融合态势，企业核心力量下沉，携手新基建夯实物联网基础。<br>
+   　　   5.物联网+隐私计算+区块链的技术融合将加速渗透。<br>
+   
+    </p>
+   </div>
+    <div class="item" id="item6">
+     <h1>物联网在生活中的应用</h1>
+    <p>
+     　　 物联网与我们的生活息息相关，以家中的摄像头为例：<br>
+   　　   摄像头先在家中拍摄影像，生成视频文件，并储存在摄像头的TF卡上。<br>
+     　　 然后，我们我们用客户端访问时，物联网现将我们的访问请求发送给摄像头，摄像头通过我们的访问请求返回相应的视频文件，客户端收到文件后将视频播放在我们的手机上。<br>
+    </div>
+    <div class="item" id="item6">
+      <h1>总结</h1>
+      <p>
+        　　在本次活动中，我们小组以学习的角度了解了物联网的定义、组成、发展历史、发展趋势，以实践的角度总结了摄像头的工作原理。<br>
+      　　  以上就是本次活动的成果汇报，谢谢观看！<br>
+      </p>
+    </div>
+  </div>
+   
+  
+<script>
+    const menuItems = document.querySelectorAll('.menu-item');
+    const items = document.querySelectorAll('.item');
+    
+    menuItems.forEach(function(item, index) {
+      item.addEventListener('click', function() {
+        // 移除所有栏目的 active 类
+        menuItems.forEach(function(item) {
+          item.classList.remove('active');
+        });
+        // 移除所有内容区域的 active 类
+        items.forEach(function(item) {
+          item.classList.remove('active');
+        });
+        // 给被点击的栏目添加 active 类
+        item.classList.add('active');
+        // 显示对应的内容区域
+        items[index].classList.add('active');
+    });
+  });
+    
+    </script>
+</body>
+
+ 
+</html>
+ 
+ 
