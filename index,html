@@ -47,13 +47,16 @@
 <div class="container">
   <div class="sidebar">
     <ul>
-      <li class="menu-item active">项目简介</li>
-      <li class="menu-item">物联网的定义</li>
-      <li class="menu-item">物联网的组成</li>
-      <li class="menu-item">物联网的发展历程</li>
-      <li class="menu-item">物联网的发展趋势</li>
-      <li class="menu-item">物联网在生活中的应用</li>
-      <li class="menu-item">总结</li>
+      <li class="menu-item active">1</li>
+      <li class="menu-item">2</li>
+      <li class="menu-item">3</li>
+      <li class="menu-item">4</li>
+      <li class="menu-item">5</li>
+      <li class="menu-item">6</li>
+      <li class="menu-item">7</li>
+      <li class="menu-item">8</li>
+      <li class="menu-item">9</li>
+      <li class="menu-item">10</li>
     </ul>
   </div>
 
